@@ -357,7 +357,7 @@
                     <strong>PT. Focus Creative Group</strong> adalah perusahaan IT Konsultan yang berfokus pada
                     pengembangan aplikasi berbasis web, sistem informasi, dan solusi digital. <br>Kami membantu
                     perusahaan, institusi,
-                    dan startup membangun sistem yang efisien, aman, dan dapat berkembang sesuai kebutuhan bisnis.
+                    dan startup membangun sistem yang efisien, aman, dan dapat dikembangkan sesuai kebutuhan bisnis.
                 </p>
             </div>
         </div>
@@ -367,7 +367,7 @@
             <div class="col-md-6 bg-dark text-white p-5 visi-hover" data-aos="fade-right" data-aos-duration="1000">
                 <h2 class="mb-4">Visi</h2>
                 <p>
-                    Menjadi perusahaan terdepan dalam memberikan solusi terbaik di bidang kami dengan menjunjung tinggi
+                    Menjadi perusahaan terdepan dalam memberikan solusi terbaik di bidang IT dengan menjunjung tinggi
                     integritas, inovasi, dan profesionalisme.
                 </p>
             </div>
@@ -376,10 +376,10 @@
             <div class="col-md-6 bg-white text-dark p-5 misi-hover" data-aos="fade-left" data-aos-duration="1000">
                 <h2 class="mb-4">Misi</h2>
                 <ul>
-                    <li>Menyediakan layanan berkualitas tinggi yang berorientasi pada kepuasan pelanggan.</li>
-                    <li>Mendorong inovasi berkelanjutan dalam setiap aspek layanan.</li>
-                    <li>Membangun tim yang kompeten dan berdedikasi.</li>
-                    <li>Menjalin kemitraan strategis untuk pertumbuhan bersama.</li>
+                    <li>Menyediakan layanan yang berkualitas dengan berorientasi pada kepuasan pelanggan.</li>
+                    <li>Mendorong inovasi berkelanjutan pada setiap aspek layanan.</li>
+                    <li>Membangun tim yang memiliki kompetensi baik dan berdedikasi tinggi.</li>
+                    <li>Menjalin kemitraan strategis untuk membangun kebersamaan.</li>
                 </ul>
             </div>
         </div>
