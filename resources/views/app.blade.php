@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Focus Creative Group</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" href="assets/images/logo/logo_tab.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
 
 
 
@@ -388,7 +390,7 @@
     <section class="container-fluid my-5" id="visi-misi">
         <div class="row mb-5">
             <div class="col text-center" data-aos="fade" data-aos-duration="2000">
-                <h2 class="fw-bold">Tentang Kami</h2>
+                <h2 class="fw-bold">TENTANG KAMI</h2>
                 <p class="mt-3">
                     <strong>PT. Focus Creative Group</strong> adalah perusahaan IT Konsultan yang berfokus pada
                     pengembangan aplikasi berbasis web, sistem informasi, dan solusi digital. <br>Kami membantu
@@ -421,9 +423,7 @@
         </div>
     </section>
 
-
-
-
+    {{-- KEAHLIAN --}}
     <section id="tools" class="bg-light d-flex justify-content-center align-items-center"
         style="height: 25vh; margin: 0; padding: 0; box-shadow: 0 -10px 15px -5px rgba(0,0,0,0.3);">
         <div class="container-fluid px-0 position-relative overflow-hidden">
@@ -495,11 +495,14 @@
             </div>
         </div>
     </section>
+
+
+    {{-- LAYANAN KAMI --}}
     <!-- Product -->
     <section id="service" class="py-5 bg-dark text-white position-relative overflow-hidden"
     style="box-shadow: 0 10px 15px -5px rgba(0,0,0,0.3);">
         <div class="container text-center">
-            <h2 class="mb-4 fw-bold">Layanan Kami</h2>
+            <h2 class="mb-4 fw-bold">LAYANAN KAMI</h2>
             <p class="mb-5 text-light">
                 Kami hadir di dunia teknologi informasi untuk memberikan solusi, perencanaan, dan strategi yang
                 terintegrasi sebagai nilai tambah maksimal bagi kebutuhan dan permasalahan Anda.
@@ -561,10 +564,12 @@
         </div>
     </section>
 
+
+    {{-- PROJECT KAMI --}}
     <section id="projects" class="py-5 bg-light">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="fw-bold">Project Kami</h2>
+                <h2 class="fw-bold">PROJECT KAMI</h2>
                 <p class="text-muted">
                     Beberapa project unggulan yang telah kami selesaikan bersama klien dari berbagai industri.
                 </p>
@@ -659,9 +664,11 @@
 
     </section>
 
-    <section class="container py-5" id="keunggulan-kami">
+
+{{-- KEUNGGULAN KAMI --}}
+<section class="container py-5" id="keunggulan-kami">
   <div class="text-center mb-5">
-    <h2 class="fw-bold">Keunggulan Kami</h2>
+    <h2 class="fw-bold">KEUNGGULAN KAMI</h2>
   </div>
 
   <!-- Baris pertama: 3 card -->
@@ -730,12 +737,12 @@
   </div>
 </section>
 
-
-
+{{-- TESTIMONI --}}
     <!-- Testimoni -->
     <section id="testimoni" class="bg-light py-5">
         <div class="container">
-            <h2 class="mb-4 text-center fw-bold">Testimoni</h2>
+            <h2 class="mb-2 text-center fw-bold">TESTIMONI</h2>
+            <p class="text-muted text-center mb-5">Simak pengalaman langsung dari pengguna layanan kami</p>
             <div class="row g-4">
 
                 <!-- Testimonial Item -->
@@ -790,42 +797,65 @@
         </div>
     </section>
     <!-- Footer -->
-    <footer class="bg text-white py-4" style="background-color: ;">
-        <div class="container">
-            <div class="row d-flex justify-content-between align-items-start">
-                <div class="col-md-6 mb-3 mb-md-0" style="max-width: 48%;">
-                    <div class="mb-3">
-                        <a class="mb-4" href="#">
-                            <img src="../assets/images/logo/logo_fcg_it2.png" alt="Logo" height="70">
-                        </a>
-                    </div>
-                    <p class="mb-1">Cibinong, Kabupaten Bogor, Jawa Barat</p>
-                    <p class="mb-0">Indonesia</p>
-                </div>
-
-                <!-- Kanan: Kontak -->
-                <div class="col-md-6" style="max-width: 48%; text-align: right;">
-                    <h5 class="fw-bold">Kontak Kami</h5>
-                    <ul class="list-unstyled mb-0">
-                        <li class="mb-2">
-                            <a href="https://wa.me/6287844346046" class="btn btn-success"
-                                style="background-color: #25D366; border-color: #25D366;">
-                                <i class="fab fa-whatsapp me-2"></i>Hubungi via WhatsApp
-                            </a>
-                        </li>
-                        <li>Email: <a href="mailto:info@focuscreative.com"
-                                class="text-white text-decoration-none">info@focuscreative.com</a></li>
-                        <li>Instagram: <a href="https://instagram.com/focuscreative" target="_blank"
-                                class="text-white text-decoration-none">@focuscreative</a></li>
-                    </ul>
-                </div>
-            </div>
-            <hr class="border-light mt-4">
-            <div class="text-center">
-                <small>&copy; 2025 Focus Creative Group. All rights reserved.</small>
-            </div>
+    <!-- Footer -->
+<footer class="text-white py-4" style="background-color: #222;">
+  <div class="container">
+    <div class="row text-center text-md-start align-items-start justify-content-between">
+      <!-- Kolom 1: Logo, Alamat & Deskripsi Perusahaan -->
+      <div class="col-md-4 mb-4">
+        <div class="mb-3">
+          <a href="#">
+            <img src="../assets/images/logo/logo_fcg_it2.png" alt="Logo" height="70">
+          </a>
         </div>
-    </footer>
+        <p class="mb-3 text-justify" style="text-align: justify"><b>Focus Creative Group</b> adalah Perusahaan IT Konsultan yang berfokus pada pengembangan aplikasi berbasis web, sistem informasi, dan solusi digital.
+Kami membantu perusahaan, institusi, dan startup membangun sistem yang efisien, aman, dan dapat dikembangkan sesuai kebutuhan bisnis..</p>
+        <p class="mb-1">Cibinong, Kabupaten Bogor, Jawa Barat</p>
+        <p class="mb-0">Indonesia</p>
+      </div>
+
+      <!-- Kolom 2: Kontak -->
+      <div class="col-md-4 mb-4 text-center">
+        <h5 class="fw-bold mb-3">Kontak Kami</h5>
+        <ul class="list-unstyled mb-0">
+          <li class="mb-2">
+            <a href="https://wa.me/6287844346046" class="btn btn-success"
+              style="background-color: #25D366; border-color: #25D366;">
+              <i class="fab fa-whatsapp me-2"></i>Hubungi via WhatsApp
+            </a>
+          </li>
+          <li>Email: 
+            <a href="mailto:info@focuscreative.com" class="text-white text-decoration-none">
+              info@focuscreative.com
+            </a>
+          </li>
+          <li>Instagram: 
+            <a href="https://instagram.com/focuscreative" target="_blank" class="text-white text-decoration-none">
+              @focuscreative
+            </a>
+          </li>
+        </ul>
+      </div>
+
+       <!-- Kolom 3: Peta -->
+      <div class="col-md-4 mb-4 text-center">
+        <h5 class="fw-bold mb-3">Lokasi Kami</h5>
+        <div class="rounded overflow-hidden" style="height: 200px;">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d524.4071395060596!2d106.80251673959859!3d-6.509009350469126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a03afb1472ec7%3A0xb918102afe0f97b2!2sRENTAL%20MOBIL%20ACROPOLIS%20KARADENAN%20CIBINONG%20BOGOR!5e0!3m2!1sen!2sid!4v1750238194821!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-light mt-4">
+    <div class="text-center">
+      <small>&copy; 2025 Focus Creative Group. All rights reserved.</small>
+    </div>
+  </div>
+</footer>
+
+
     <!-- AOS JS -->
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
