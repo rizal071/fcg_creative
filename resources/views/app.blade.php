@@ -140,33 +140,35 @@
                 transform: translateX(0);
             }
         }
+
         .service-glass {
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(8px);
-    border-radius: 1rem;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(8px);
+            border-radius: 1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
 
-  .service-glass:hover {
-    transform: translateY(-6px) scale(1.02);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
-  }
+        .service-glass:hover {
+            transform: translateY(-6px) scale(1.02);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+        }
 
-  .card-body i {
-    transition: transform 0.3s ease;
-  }
+        .card-body i {
+            transition: transform 0.3s ease;
+        }
 
-  .service-glass:hover i {
-    transform: scale(1.2) rotate(5deg);
-  }
-  .hover-zoom-project {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+        .service-glass:hover i {
+            transform: scale(1.2) rotate(5deg);
+        }
 
-  .hover-zoom-project:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
-  }
+        .hover-zoom-project {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hover-zoom-project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        }
 
         footer {
             background-color: #55aaff;
@@ -253,7 +255,8 @@
 
                         <h6>1. Tujuan Website</h6>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Company Profile/Blog" name="tujuan">
+                            <input class="form-check-input" type="checkbox" value="Company Profile/Blog"
+                                name="tujuan">
                             <label class="form-check-label">Company Profile/Blog</label>
                         </div>
                         <div class="form-check">
@@ -422,7 +425,7 @@
 
 
     <section id="tools" class="bg-light d-flex justify-content-center align-items-center"
-        style="height: 25vh; margin: 0; padding: 0; border: 1px solid #47a3ff;">
+        style="height: 25vh; margin: 0; padding: 0; box-shadow: 0 -10px 15px -5px rgba(0,0,0,0.3);">
         <div class="container-fluid px-0 position-relative overflow-hidden">
             <div class="tools-wrapper position-relative" style="height: 100px;">
                 <!-- Track 1 -->
@@ -458,7 +461,7 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg"
                         alt="Laravel" height="80">
 
-                <!-- Track 2 -->
+                    <!-- Track 2 -->
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"
                         height="80">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
@@ -493,168 +496,179 @@
         </div>
     </section>
     <!-- Product -->
-    <section id="service" class="py-5 bg-dark text-white position-relative overflow-hidden">
-  <div class="container text-center">
-    <h2 class="mb-4 fw-bold">Layanan Kami</h2>
-    <p class="mb-5 text-light">
-      Kami hadir di dunia teknologi informasi untuk memberikan solusi, perencanaan, dan strategi yang terintegrasi sebagai nilai tambah maksimal bagi kebutuhan dan permasalahan Anda.
-    </p>
+    <section id="service" class="py-5 bg-dark text-white position-relative overflow-hidden"
+    style="box-shadow: 0 10px 15px -5px rgba(0,0,0,0.3);">
+        <div class="container text-center">
+            <h2 class="mb-4 fw-bold">Layanan Kami</h2>
+            <p class="mb-5 text-light">
+                Kami hadir di dunia teknologi informasi untuk memberikan solusi, perencanaan, dan strategi yang
+                terintegrasi sebagai nilai tambah maksimal bagi kebutuhan dan permasalahan Anda.
+            </p>
 
-    <div class="row g-4 justify-content-center">
-      <!-- Service Card -->
-      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
-        <div class="card service-glass text-white border-0 h-100 shadow-lg">
-          <div class="card-body text-center py-4 px-3">
-            <div class="mb-3">
-              <i class="fas fa-code fa-2x text-info"></i>
+            <div class="row g-4 justify-content-center">
+                <!-- Service Card -->
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card service-glass text-white border-0 h-100 shadow-lg">
+                        <div class="card-body text-center py-4 px-3">
+                            <div class="mb-3">
+                                <i class="fas fa-code fa-2x text-info"></i>
+                            </div>
+                            <h5 class="fw-semibold">Software & Program</h5>
+                            <p class="small text-light opacity-75">Sistem Informasi Manajemen (ERP, CRM, HRIS)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card -->
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="card service-glass text-white border-0 h-100 shadow-lg">
+                        <div class="card-body text-center py-4 px-3">
+                            <div class="mb-3">
+                                <i class="fa-solid fa-magnifying-glass-chart fa-2x text-primary"></i>
+                            </div>
+                            <h5 class="fw-semibold">Analisis</h5>
+                            <p class="small text-light opacity-75">Analisis Kebutuhan Sistem</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card -->
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card service-glass text-white border-0 h-100 shadow-lg">
+                        <div class="card-body text-center py-4 px-3">
+                            <div class="mb-3">
+                                <i class="fas fa-network-wired fa-2x text-info mb-3"></i>
+                            </div>
+                            <h5 class="fw-semibold">Hardware & Network</h5>
+                            <p class="small text-light opacity-75">Konfigurasi </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card -->
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="card service-glass text-white border-0 h-100 shadow-lg">
+                        <div class="card-body text-center py-4 px-3">
+                            <div class="mb-3">
+                                <i class="fas fa-comments fa-2x text-warning"></i>
+                            </div>
+                            <h5 class="fw-semibold">Consulting</h5>
+                            <p class="small text-light opacity-75">Konsultasikan kebutuhan IT Anda pada kami</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <h5 class="fw-semibold">Software & Program</h5>
-            <p class="small text-light opacity-75">Sistem Informasi Manajemen (ERP, CRM, HRIS)</p>
-          </div>
         </div>
-      </div>
+    </section>
 
-      <!-- Service Card -->
-      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="150">
-        <div class="card service-glass text-white border-0 h-100 shadow-lg">
-          <div class="card-body text-center py-4 px-3">
-            <div class="mb-3">
-              <i class="fas fa-shield-alt fa-2x text-danger"></i>
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Project Kami</h2>
+                <p class="text-muted">
+                    Beberapa project unggulan yang telah kami selesaikan bersama klien dari berbagai industri.
+                </p>
             </div>
-            <h5 class="fw-semibold">Analisis</h5>
-            <p class="small text-light opacity-75">Analisis Kebutuhan Sistem</p>
-          </div>
-        </div>
-      </div>
 
-      <!-- Service Card -->
-      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
-        <div class="card service-glass text-white border-0 h-100 shadow-lg">
-          <div class="card-body text-center py-4 px-3">
-            <div class="mb-3">
-              <i class="fas fa-paint-brush fa-2x text-primary"></i>
+            <div class="row g-4">
+                <!-- Project Card -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 shadow-sm border-0 hover-zoom-project">
+                        <img src="../images/projects/mpa.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Aplikasi Pemantauan Warehouse Sparepart</h5>
+                            <p class="card-text text-muted small">PT. Mitra Puri Armada</p>
+                            <p class="card-text text-muted small">Jakarta, Kalimantan, Sumatera</p>
+                            <a href="https://www.mpa-fleet.com" target="_blank" rel="noopener"><small
+                                    class="text-secondary">(www.mpa-fleet.com)</small></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="120">
+                    <div class="card h-100 shadow-sm border-0 hover-zoom-project">
+                        <img src="../images/projects/khasanah.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Aplikasi Akunting dan Webiste Company Profile</h5>
+                            <p class="card-text text-muted small">PT. Khasanah Tour</p>
+                            <p class="card-text text-muted small">Jakarta</p>
+                            <a href="https://travelkhazanah.com" target="_blank" rel="noopener"><small
+                                    class="text-secondary">(travelkhazanah.com)</small></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project Card -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+                    <div class="card h-100 shadow-sm border-0 hover-zoom-project">
+                        <img src="../images/projects/mpa.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Aplikasi Pemantauan Tanki Pertamina</h5>
+                            <p class="card-text text-muted small">PT. Nusa Raya Energi Utama</p>
+                            <p class="card-text text-muted small">Kalimantan Timur</p>
+                            <a href="https://www.app.nreu.com" target="_blank" rel="noopener"><small
+                                    class="text-secondary">(www.app.nreu.com)</small></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100 shadow-sm border-0 hover-zoom-project">
+                        <img src="../images/projects/dkylb.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Majalah Digital</h5>
+                            <p class="card-text text-muted small">DKYLB.COM <em>Content Creator</em></p>
+                            <p class="card-text text-muted small">Jakarta</p>
+                            <a href="https://www.dkylb.com" target="_blank" rel="noopener"><small
+                                    class="text-secondary">(www.dkylb.com)</small></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="250">
+                    <div class="card h-100 shadow-sm border-0 hover-zoom-project">
+                        <img src="../images/projects/dkylb.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Website Company Profile</h5>
+                            <p class="card-text text-muted small">PT. Brawijaya Jaya Sentora</p>
+                            <p class="card-text text-muted small">Depok</p>
+                            <a href="https://www.ServiceKomporGasTeknisiHandal.com" target="_blank"
+                                rel="noopener"><small
+                                    class="text-secondary">(www.ServiceKomporGasTeknisiHandal.com)</small></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card h-100 shadow-sm border-0 hover-zoom-project">
+                        <img src="../images/projects/fcg.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold">Website Company Profile</h5>
+                            <p class="card-text text-muted small">FCG Consulting</p>
+                            <p class="card-text text-muted small">Bogor</p>
+                            <a href="https://www.fcgconsulting.co.id" target="_blank" rel="noopener"><small
+                                    class="text-secondary">(www.fcgconsulting.co.id)</small></a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <h5 class="fw-semibold">UI/UX</h5>
-            <p class="small text-light opacity-75">UI/UX Design & Prototyping</p>
-          </div>
         </div>
-      </div>
 
-      <!-- Service Card -->
-      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="250">
-        <div class="card service-glass text-white border-0 h-100 shadow-lg">
-          <div class="card-body text-center py-4 px-3">
-            <div class="mb-3">
-              <i class="fas fa-comments fa-2x text-warning"></i>
-            </div>
-            <h5 class="fw-semibold">Consulting</h5>
-            <p class="small text-light opacity-75">Konsultasikan kebutuhan IT Anda pada kami</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="projects" class="py-5 bg-light">
-  <div class="container">
-    <div class="text-center mb-5">
-      <h2 class="fw-bold">Project Kami</h2>
-      <p class="text-muted">
-        Beberapa project unggulan yang telah kami selesaikan bersama klien dari berbagai industri.
-      </p>
-    </div>
-
-    <div class="row g-4">
-      <!-- Project Card -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="card h-100 shadow-sm border-0 hover-zoom-project">
-          <img src="../images/projects/mpa.jpg" class="card-img-top" alt="Project 1">
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Aplikasi Pemantauan Warehouse Sparepart</h5>
-            <p class="card-text text-muted small">PT. Mitra Puri Armada</p>
-            <p class="card-text text-muted small">Jakarta, Kalimantan, Sumatera</p>
-            <a href="https://www.mpa-fleet.com" target="_blank" rel="noopener"><small class="text-secondary">(www.mpa-fleet.com)</small></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project Card -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="120">
-        <div class="card h-100 shadow-sm border-0 hover-zoom-project">
-          <img src="../images/projects/mpa.jpg" class="card-img-top" alt="Project 1">
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Aplikasi Akunting dan Webiste Company Profile</h5>
-            <p class="card-text text-muted small">PT. Khasanah Tour</p>
-            <p class="card-text text-muted small">Jakarta</p>
-            <a href="https://www.khasanahtour.com" target="_blank" rel="noopener"><small class="text-secondary">(www.khasanahtour.com)</small></a>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- Project Card -->
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
-        <div class="card h-100 shadow-sm border-0 hover-zoom-project">
-          <img src="../images/projects/mpa.jpg" class="card-img-top" alt="Project 1">
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Aplikasi Pemantauan Tanki Pertamina</h5>
-            <p class="card-text text-muted small">PT. Nusa Raya Energi Utama</p>
-            <p class="card-text text-muted small">Kalimantan Timur</p>
-            <a href="https://www.app.nreu.com" target="_blank" rel="noopener"><small class="text-secondary">(www.app.nreu.com)</small></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="card h-100 shadow-sm border-0 hover-zoom-project">
-          <img src="../images/projects/dkylb.jpg" class="card-img-top" alt="Project 1">
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Majalah Digital</h5>
-            <p class="card-text text-muted small">DKYLB.COM <em>Content Creator</em></p>
-            <p class="card-text text-muted small">Jakarta</p>
-            <a href="https://www.dkylb.com" target="_blank" rel="noopener"><small class="text-secondary">(www.dkylb.com)</small></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="250">
-        <div class="card h-100 shadow-sm border-0 hover-zoom-project">
-          <img src="../images/projects/dkylb.jpg" class="card-img-top" alt="Project 1">
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Website Company Profile</h5>
-            <p class="card-text text-muted small">PT. Brawijaya Jaya Sentora</p>
-            <p class="card-text text-muted small">Depok</p>
-            <a href="https://www.ServiceKomporGasTeknisiHandal.com" target="_blank" rel="noopener"><small class="text-secondary">(www.ServiceKomporGasTeknisiHandal.com)</small></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="card h-100 shadow-sm border-0 hover-zoom-project">
-          <img src="../images/projects/fcg.jpg" class="card-img-top" alt="Project 1">
-          <div class="card-body">
-            <h5 class="card-title fw-semibold">Website Company Profile</h5>
-            <p class="card-text text-muted small">FCG Consulting</p>
-            <p class="card-text text-muted small">Bogor</p>
-            <a href="https://www.fcgconsulting.co.id" target="_blank" rel="noopener"><small class="text-secondary">(www.fcgconsulting.co.id)</small></a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
+    </section>
 
     <section class="container py-5" id="keunggulan-kami">
   <div class="text-center mb-5">
     <h2 class="fw-bold">Keunggulan Kami</h2>
   </div>
-  <div class="row g-4">
-    <!-- Keunggulan 1 -->
+
+  <!-- Baris pertama: 3 card -->
+  <div class="row g-4 justify-content-center">
     <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
       <div class="card h-100 shadow border-0 bg-primary text-white rounded-4">
-        <div class="card-body p-4">
+        <div class="card-body p-4 text-center">
           <div class="mb-3">
             <i class="bi bi-people-fill fs-1"></i>
           </div>
@@ -664,10 +678,9 @@
       </div>
     </div>
 
-    <!-- Keunggulan 2 -->
     <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
       <div class="card h-100 shadow border-0 bg-success text-white rounded-4">
-        <div class="card-body p-4">
+        <div class="card-body p-4 text-center">
           <div class="mb-3">
             <i class="bi bi-cpu-fill fs-1"></i>
           </div>
@@ -677,10 +690,9 @@
       </div>
     </div>
 
-    <!-- Keunggulan 3 -->
     <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
       <div class="card h-100 shadow border-0 bg-warning text-dark rounded-4">
-        <div class="card-body p-4">
+        <div class="card-body p-4 text-center">
           <div class="mb-3">
             <i class="bi bi-phone-fill fs-1"></i>
           </div>
@@ -689,11 +701,12 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Keunggulan 4 -->
+  <div class="row g-4 justify-content-center mt-1">
     <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="250">
       <div class="card h-100 shadow border-0 bg-danger text-white rounded-4">
-        <div class="card-body p-4">
+        <div class="card-body p-4 text-center">
           <div class="mb-3">
             <i class="bi bi-wrench-adjustable-circle-fill fs-1"></i>
           </div>
@@ -703,10 +716,9 @@
       </div>
     </div>
 
-    <!-- Keunggulan 5 -->
     <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
       <div class="card h-100 shadow border-0 bg-info text-white rounded-4">
-        <div class="card-body p-4">
+        <div class="card-body p-4 text-center">
           <div class="mb-3">
             <i class="bi bi-kanban-fill fs-1"></i>
           </div>
@@ -717,6 +729,7 @@
     </div>
   </div>
 </section>
+
 
 
     <!-- Testimoni -->
@@ -778,40 +791,41 @@
     </section>
     <!-- Footer -->
     <footer class="bg text-white py-4" style="background-color: ;">
-    <div class="container">
-        <div class="row d-flex justify-content-between align-items-start">
-            <div class="col-md-6 mb-3 mb-md-0" style="max-width: 48%;">
-                <div class="mb-3">
-                    <a class="mb-4" href="#">
-                        <img src="../assets/images/logo/logo_fcg_it2.png" alt="Logo" height="70">
-                    </a>
-                </div>
-                <p class="mb-1">Cibinong, Kabupaten Bogor, Jawa Barat</p>
-                <p class="mb-0">Indonesia</p>
-            </div>
-
-            <!-- Kanan: Kontak -->
-            <div class="col-md-6" style="max-width: 48%; text-align: right;">
-                <h5 class="fw-bold">Kontak Kami</h5>
-                <ul class="list-unstyled mb-0">
-                    <li class="mb-2">
-                        <a href="https://wa.me/6287844346046" class="btn btn-success" style="background-color: #25D366; border-color: #25D366;">
-                            <i class="fab fa-whatsapp me-2"></i>Hubungi via WhatsApp
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-start">
+                <div class="col-md-6 mb-3 mb-md-0" style="max-width: 48%;">
+                    <div class="mb-3">
+                        <a class="mb-4" href="#">
+                            <img src="../assets/images/logo/logo_fcg_it2.png" alt="Logo" height="70">
                         </a>
-                    </li>
-                    <li>Email: <a href="mailto:info@focuscreative.com"
-                            class="text-white text-decoration-none">info@focuscreative.com</a></li>
-                    <li>Instagram: <a href="https://instagram.com/focuscreative" target="_blank"
-                            class="text-white text-decoration-none">@focuscreative</a></li>
-                </ul>
+                    </div>
+                    <p class="mb-1">Cibinong, Kabupaten Bogor, Jawa Barat</p>
+                    <p class="mb-0">Indonesia</p>
+                </div>
+
+                <!-- Kanan: Kontak -->
+                <div class="col-md-6" style="max-width: 48%; text-align: right;">
+                    <h5 class="fw-bold">Kontak Kami</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2">
+                            <a href="https://wa.me/6287844346046" class="btn btn-success"
+                                style="background-color: #25D366; border-color: #25D366;">
+                                <i class="fab fa-whatsapp me-2"></i>Hubungi via WhatsApp
+                            </a>
+                        </li>
+                        <li>Email: <a href="mailto:info@focuscreative.com"
+                                class="text-white text-decoration-none">info@focuscreative.com</a></li>
+                        <li>Instagram: <a href="https://instagram.com/focuscreative" target="_blank"
+                                class="text-white text-decoration-none">@focuscreative</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border-light mt-4">
+            <div class="text-center">
+                <small>&copy; 2025 Focus Creative Group. All rights reserved.</small>
             </div>
         </div>
-        <hr class="border-light mt-4">
-        <div class="text-center">
-            <small>&copy; 2025 Focus Creative Group. All rights reserved.</small>
-        </div>
-    </div>
-</footer>
+    </footer>
     <!-- AOS JS -->
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
@@ -905,29 +919,29 @@
     </script>
 
     <script>
-        document.addEventListener('click', function (event) {
-    const navbar = document.getElementById('navbarNav');
-    const toggler = document.querySelector('.navbar-toggler');
+        document.addEventListener('click', function(event) {
+            const navbar = document.getElementById('navbarNav');
+            const toggler = document.querySelector('.navbar-toggler');
 
-    const isNavbarOpen = navbar.classList.contains('show');
-    const clickedOutsideNavbar = !navbar.contains(event.target) && !toggler.contains(event.target);
+            const isNavbarOpen = navbar.classList.contains('show');
+            const clickedOutsideNavbar = !navbar.contains(event.target) && !toggler.contains(event.target);
 
-    // Jika sedang di mode kecil (hamburger), navbar terbuka, dan klik di luar
-    if (window.innerWidth < 992 && isNavbarOpen && clickedOutsideNavbar) {
-      const collapse = new bootstrap.Collapse(navbar, {
-        toggle: false
-      });
-      collapse.hide();
-    }
-  });
+            // Jika sedang di mode kecil (hamburger), navbar terbuka, dan klik di luar
+            if (window.innerWidth < 992 && isNavbarOpen && clickedOutsideNavbar) {
+                const collapse = new bootstrap.Collapse(navbar, {
+                    toggle: false
+                });
+                collapse.hide();
+            }
+        });
     </script>
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init({
-    duration: 800, // durasi animasi dalam milidetik
-    once: true     // animasi hanya muncul satu kali
-  });
-</script>
+    <script>
+        AOS.init({
+            duration: 800, // durasi animasi dalam milidetik
+            once: true // animasi hanya muncul satu kali
+        });
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
         < script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" >
