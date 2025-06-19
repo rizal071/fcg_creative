@@ -227,12 +227,12 @@
             <h1 class="display-4 fw-bold" style="font-family: 'Montserrat', sans-serif;">FOCUS Creative Group</h1>
             <p class="lead">"Transforming Ideas Into Reliable Digital Solutions"</p>
 
-            <div class="mt-4">
+            {{-- <div class="mt-4">
                 <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal"
                     data-bs-target="#modalStep1">
                     Pesan Sekarang
                 </button>
-            </div>
+            </div> --}}
         </div>
     </section>
     <!-- Modal Step 1 -->
@@ -516,8 +516,8 @@
                             <div class="mb-3">
                                 <i class="fas fa-code fa-2x text-info"></i>
                             </div>
-                            <h5 class="fw-semibold">Software & Program</h5>
-                            <p class="small text-light opacity-75">Sistem Informasi Manajemen (ERP, CRM, HRIS)</p>
+                            <h5 class="fw-semibold">Web Development</h5>
+                            <p class="small text-light opacity-75">Pemeliharaan Situs Website</p>
                         </div>
                     </div>
                 </div>
@@ -527,10 +527,10 @@
                     <div class="card service-glass text-white border-0 h-100 shadow-lg">
                         <div class="card-body text-center py-4 px-3">
                             <div class="mb-3">
-                                <i class="fa-solid fa-magnifying-glass-chart fa-2x text-primary"></i>
+                                <i class="fa-solid fa-paintbrush fa-2x text-primary"></i>
                             </div>
-                            <h5 class="fw-semibold">Analisis</h5>
-                            <p class="small text-light opacity-75">Analisis Kebutuhan Sistem</p>
+                            <h5 class="fw-semibold">Desain Grafis</h5>
+                            <p class="small text-light opacity-75">Spanduk, Banner, UI/UX, Logo</p>
                         </div>
                     </div>
                 </div>
@@ -561,6 +561,12 @@
                     </div>
                 </div>
             </div>
+            <div class="mt-4" data-aos="zoom-in" data-aos-delay="300">
+                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal"
+                    data-bs-target="#modalStep1">
+                    Pesan Sekarang
+                </button>
+            </div>
         </div>
     </section>
 
@@ -579,7 +585,7 @@
                 <!-- Project Card -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="card h-100 shadow-sm border-0 hover-zoom-project">
-                        <img src="../images/projects/mpa.jpg" class="card-img-top" alt="Project 1">
+                        <img src="../assets/images/projects/mpa.JPG" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <h5 class="card-title fw-semibold">Aplikasi Pemantauan Warehouse Sparepart</h5>
                             <p class="card-text text-muted small">PT. Mitra Puri Armada</p>
@@ -593,7 +599,7 @@
                 <!-- Project Card -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="120">
                     <div class="card h-100 shadow-sm border-0 hover-zoom-project">
-                        <img src="../images/projects/khasanah.jpg" class="card-img-top" alt="Project 1">
+                        <img src="../assets/images/projects/khasanah.JPG" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <h5 class="card-title fw-semibold">Aplikasi Akunting dan Webiste Company Profile</h5>
                             <p class="card-text text-muted small">PT. Khasanah Tour</p>
@@ -608,7 +614,7 @@
                 <!-- Project Card -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
                     <div class="card h-100 shadow-sm border-0 hover-zoom-project">
-                        <img src="../images/projects/mpa.jpg" class="card-img-top" alt="Project 1">
+                        <img src="../assets/images/projects/mpa.JPG" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <h5 class="card-title fw-semibold">Aplikasi Pemantauan Tanki Pertamina</h5>
                             <p class="card-text text-muted small">PT. Nusa Raya Energi Utama</p>
@@ -621,7 +627,7 @@
 
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="card h-100 shadow-sm border-0 hover-zoom-project">
-                        <img src="../images/projects/dkylb.jpg" class="card-img-top" alt="Project 1">
+                        <img src="../assets/images/projects/dkylb.JPG" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <h5 class="card-title fw-semibold">Majalah Digital</h5>
                             <p class="card-text text-muted small">DKYLB.COM <em>Content Creator</em></p>
@@ -634,7 +640,7 @@
 
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="250">
                     <div class="card h-100 shadow-sm border-0 hover-zoom-project">
-                        <img src="../images/projects/dkylb.jpg" class="card-img-top" alt="Project 1">
+                        <img src="../assets/images/projects/dkylb.JPG" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <h5 class="card-title fw-semibold">Website Company Profile</h5>
                             <p class="card-text text-muted small">PT. Brawijaya Jaya Sentora</p>
@@ -648,7 +654,7 @@
 
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="card h-100 shadow-sm border-0 hover-zoom-project">
-                        <img src="../images/projects/fcg.jpg" class="card-img-top" alt="Project 1">
+                        <img src="../assets/images/projects/fcg.JPG" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <h5 class="card-title fw-semibold">Website Company Profile</h5>
                             <p class="card-text text-muted small">FCG Consulting</p>
@@ -796,7 +802,7 @@
             </div>
         </div>
     </section>
-    <!-- Footer -->
+
     <!-- Footer -->
 <footer class="text-white py-4" style="background-color: #222;">
   <div class="container">
@@ -805,7 +811,7 @@
       <div class="col-md-4 mb-4">
         <div class="mb-3">
           <a href="#">
-            <img src="../assets/images/logo/logo_fcg_it2.png" alt="Logo" height="70">
+            <img src="../assets/images/logo/logo_putih.png" alt="Logo" height="70">
           </a>
         </div>
         <p class="mb-3 text-justify" style="text-align: justify"><b>Focus Creative Group</b> adalah Perusahaan IT Konsultan yang berfokus pada pengembangan aplikasi berbasis web, sistem informasi, dan solusi digital.
@@ -841,9 +847,7 @@ Kami membantu perusahaan, institusi, dan startup membangun sistem yang efisien, 
       <div class="col-md-4 mb-4 text-center">
         <h5 class="fw-bold mb-3">Lokasi Kami</h5>
         <div class="rounded overflow-hidden" style="height: 200px;">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d524.4071395060596!2d106.80251673959859!3d-6.509009350469126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a03afb1472ec7%3A0xb918102afe0f97b2!2sRENTAL%20MOBIL%20ACROPOLIS%20KARADENAN%20CIBINONG%20BOGOR!5e0!3m2!1sen!2sid!4v1750238194821!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.099486425106!2d106.80016507531396!3d-6.509089993483257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c3cc4822742f%3A0x92090fce70997b23!2sMULTIDAYA%20%26%20Acropolis%20Co-Working%20%26%20Virtual%20Office!5e0!3m2!1sen!2sid!4v1750253606446!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
